@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Photos from './components/pages/Photos';
+import axios from 'axios';
 import './App.css';
 
 function App() {
