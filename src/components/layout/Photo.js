@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Slide } from 'react-slideshow-image';
+import Carousel from 'react-elastic-carousel';
 
 class Photo extends Component {
   state = {
@@ -37,18 +37,27 @@ class Photo extends Component {
     ],
   };
   render() {
+    const { photo } = this.state;
     return (
-      <Slide easing="ease">
-        <div className="each-slide">
-          {this.state.photo.map((photos) => (
-            <div key={photos.id}>
-              <img src={photos.camera.img_src} alt="" />
-            </div>
-          ))}
-        </div>
-      </Slide>
+      <Carousel>
+        {photo.map((photos) => (
+          <div key={photos.id}>
+            <img src={photos.camera.img_src} alt="" />
+          </div>
+        ))}
+      </Carousel>
     );
   }
 }
 
 export default Photo;
+
+{
+  /* <div className="each-slide">
+        {this.state.photo.map((photos) => (
+          <div key={photos.id}>
+            <img src={photos.camera.img_src} alt="" />
+          </div>
+        ))}
+      </div> */
+}

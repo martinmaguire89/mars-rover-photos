@@ -6,11 +6,10 @@ import Photo from '../layout/Photo';
 class Photos extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <Rovers />
-        <div className="card">
-          <Photo />
-        </div>
+        <Cameras />
+        <Photo />
       </div>
     );
   }

@@ -1,7 +1,13 @@
 import React from 'react';
 
 const Cameras = () => {
-  return <div></div>;
+  return (
+    <div>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+    </div>
+  );
 };
 
 export default Cameras;
