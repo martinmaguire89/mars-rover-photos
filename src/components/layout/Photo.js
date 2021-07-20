@@ -36,6 +36,8 @@ class Photo extends Component {
       },
     ],
   };
+  //npm install --save react-elastic-carousel fucntion added to map through my images //
+  // You need to install npm install --save styled components aswell //
   render() {
     const { photo } = this.state;
     return (
