@@ -41,25 +41,25 @@ class Photo extends Component {
   render() {
     const { photo } = this.state;
     return (
-      <Carousel>
-        {photo.map((photos) => (
-          <div key={photos.id}>
-            <img src={photos.camera.img_src} alt="" />
-          </div>
-        ))}
-      </Carousel>
+      <div className="carousel">
+        <Carousel>
+          {photo.map((photos) => (
+            <div key={photos.id}>
+              <img src={photos.camera.img_src} alt="" />
+            </div>
+          ))}
+        </Carousel>
+      </div>
     );
   }
 }
 
 export default Photo;
 
-{
-  /* <div className="each-slide">
+/* <div className="each-slide">
         {this.state.photo.map((photos) => (
           <div key={photos.id}>
             <img src={photos.camera.img_src} alt="" />
           </div>
         ))}
       </div> */
-}
