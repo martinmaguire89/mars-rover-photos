@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = ({ icon, title }) => {
   return (
     <div className="background-image">
-      <nav className="navbar bg-primary">
+      <nav className="navbar">
         <h1>
           <i className={icon}>{}</i>
           {title}

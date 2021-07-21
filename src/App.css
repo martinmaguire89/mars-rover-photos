@@ -17,7 +17,6 @@ body {
   background: url(../src/images/mars.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
 }
 
 * {
