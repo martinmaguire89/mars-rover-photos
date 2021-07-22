@@ -8,7 +8,9 @@ class Photos extends Component {
     return (
       <div>
         <Rovers />
+        <br></br>
         <Cameras />
+        <br></br>
         <Photo />
       </div>
     );
