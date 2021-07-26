@@ -9,55 +9,55 @@ const Cameras = () => {
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-one">
-            Curiosity
+            FHAZ
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-two">
-            Opportunity
+            RHAZ
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-one">
-            Spirit
+            MAST
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-one">
-            Curiosity
+            CHEMCAM
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-two">
-            Opportunity
+            MAHLI
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-one">
-            Spirit
+            MARDI
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-one">
-            Curiosity
+            NAVCAM
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-two">
-            Opportunity
+            PANCAM
           </a>{' '}
         </div>
         <div className="col-md-3 col-sm-3 col-xs-6">
           {' '}
           <a href="#" className="btn btn-sm animated-button rover-one">
-            Spirit
+            MINITES
           </a>{' '}
         </div>
       </div>
